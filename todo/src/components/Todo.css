@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  background-color: #2d2d37;
+  background-color: 	#0e3386;
 }
 
 h1,
@@ -50,7 +50,7 @@ h1 {
   
 }
 .item {
-  background-color: #e64944;
+  background-color:#cc3433;
   width: 45%;
   text-align: left;
   margin: 4px 0;
@@ -59,7 +59,7 @@ h1 {
 }
 
 .item.completed {
-  background-color: #d17d7c;
+  background-color: #3759b6;
   text-decoration: line-through;
 }
 form {
@@ -69,29 +69,27 @@ form {
   padding: 20px;
 }
 form > input {
-  background-color: #2d2d37;
+  background-color: #0e3386;
   border: 0;
   padding: 6px 0;
   font-size: 1rem;
   width: 240px;
   outline: 0;
   color: white;
-  border-bottom: 1px solid #e64944;
+  border-bottom: 1px solid #cc3433;
   margin-right: 8px;
 }
 
 button {
-  background-color: #e64944;
+  background-color: #cc3433;
   border: 1px solid #e64944;
+  border-radius: 10px;
   color: white;
   font-size: 16px;
   padding: 6px 14px;
 }
 
-input::placeholder {
-  color: #e64944;
-  opacity: 1;
-}
+
 
 .clear-btn {
   margin-top: 6px;
