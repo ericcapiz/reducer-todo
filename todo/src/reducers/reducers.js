@@ -31,8 +31,9 @@ switch (action.type){
                             ...item,
                             completed: !item.completed
                         }
-                    }
+                    }else{
                     return item;
+                    }
                 })
             }
             case CLEAR_COMPLETED:
